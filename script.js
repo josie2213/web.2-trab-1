@@ -7,3 +7,14 @@ horarios.forEach(h => {
   opt.textContent = h;
   selectHorario.appendChild(opt);
 });
+  
+const cidade = ["Campo Dourado", "Santa Esperança", "Rio Claro", "Boa Vista", "Serra do Vento", "Campo Belo"];
+const selecCidade = document.getElementById("cidade");
+
+cidade.forEach(h => {
+  let opt = document.createElement("option");
+  opt.value = h;
+  opt.textContent = h;
+  selecCidade.appendChild(opt);
+});
+
